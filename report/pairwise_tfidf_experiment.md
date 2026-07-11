@@ -35,6 +35,6 @@ The previous models concatenate Prompt, Response A, and Response B into one inpu
 
 ## Conclusion
 
-The ensemble improved log loss by 0.060096 relative to 1.077990. This suggests the pairwise representation adds a small amount of complementary information.
+The ensemble improved log loss by 0.060096 relative to 1.077990. The pairwise model improves validation log loss by 0.060096 compared with the previous final model. Since the optimal ensemble assigns a weight of 1.0 to the pairwise model and 0.0 to the previous model, the improvement mainly comes from the pairwise representation itself rather than model complementarity.
 
 Because all components are linear TF-IDF models, their errors can remain highly correlated. Pairwise subtraction improves structural comparison but still cannot directly judge factual correctness, deep reasoning, or nuanced human preference.
