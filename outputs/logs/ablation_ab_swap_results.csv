@@ -1,0 +1,5 @@
+﻿experiment,description,use_train_swap,use_eval_swap,valid_log_loss,valid_accuracy,valid_macro_f1,train_rows,valid_rows
+A,TF-IDF + Logistic Regression tuned,False,False,1.0808770466105573,0.3852644398051496,0.38357567446512014,45981,11496
+A+B,TF-IDF + Logistic Regression + train-time A/B swap augmentation,True,False,1.0781056826605382,0.3954418928322895,0.39630027027747355,91962,11496
+A+C,TF-IDF + Logistic Regression + eval-time swap averaging,False,True,1.0797992514152241,0.38856993736951984,0.3826173046330173,45981,11496
+A+B+C,TF-IDF + Logistic Regression + train-time A/B swap augmentation + eval-time swap averaging,True,True,1.0780948045793157,0.3968336812804454,0.3906307685690276,91962,11496

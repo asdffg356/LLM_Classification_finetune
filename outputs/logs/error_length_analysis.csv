@@ -1,0 +1,7 @@
+﻿is_correct,sample_count,response_len_diff_mean,response_len_diff_median,abs_response_len_diff_mean,abs_response_len_diff_median,analysis_type,abs_response_len_diff_bin,accuracy,mean_pred_confidence,mean_true_label_prob
+False,6950,-1.9907913669064747,0.0,642.9202877697842,407.0,correct_vs_error,,,,
+True,4546,-14.394852617685878,0.0,635.6737791465024,406.0,correct_vs_error,,,,
+,3645,,,,,abs_len_diff_bin,0-200,0.4112482853223594,0.3882074327952904,0.34743607614920136
+,2830,,,,,abs_len_diff_bin,200-500,0.36925795053003535,0.37709365390214816,0.34053303692555675
+,2679,,,,,abs_len_diff_bin,500-1000,0.39492347891004104,0.372512373162455,0.34548578427749227
+,2342,,,,,abs_len_diff_bin,1000+,0.4030742954739539,0.37349403519135677,0.34851651003760825

@@ -1,0 +1,9 @@
+# Dataset
+data/raw/
+data/processed/
+
+# Trained model checkpoints
+outputs/models/
+
+# Large prediction files
+outputs/oof/
